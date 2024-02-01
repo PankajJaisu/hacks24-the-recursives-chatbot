@@ -1,0 +1,100 @@
+version: "3.1"
+
+stories:
+- story: Greet and Request Assistance
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Express Unhappiness
+  steps:
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy
+
+
+- story: Request DIY Ideas
+  steps:
+  - intent: request_item
+  - action: utter_request_item
+
+- story: Request Painting Instructions
+  steps:
+  - intent: painting_instructions
+  - action: utter_painting_instructions
+
+- story: Request Basic Design Tips
+  steps:
+  - intent: basic_design_tips
+  - action: utter_basic_design_tips
+
+- story: Request Room Layout Tips
+  steps:
+  - intent: room_layout
+  - action: utter_room_layout
+
+- story: Request Color Scheme Advice
+  steps:
+  - intent: color_scheme
+  - action: utter_color_scheme
+
+- story: Request Materials Information
+  steps:
+  - intent: materials
+  - action: utter_materials
+
+- story: Request Budget-Friendly Ideas
+  steps:
+  - intent: budget_friendly
+  - action: utter_budget_friendly
+
+- story: Request Style Definition
+  steps:
+  - intent: define_style
+  - action: utter_define_style
+
+- story: Request Room Functionality Tips
+  steps:
+  - intent: room_functionality
+  - action: utter_room_functionality
+
+- story: Request Lighting Ideas
+  steps:
+  - intent: lighting_ideas
+  - action: utter_lighting_ideas
+
+
+- story: Request Sustainable Design Ideas
+  steps:
+  - intent: sustainable_design
+  - action: utter_sustainable_design
+
+- story: Request Vintage Decor Tips
+  steps:
+  - intent: vintage_decor
+  - action: utter_vintage_decor
+
+- story: Request Smart Home Tech Recommendations
+  steps:
+  - intent: smart_home_tech
+  - action: utter_smart_home_tech
+
+- story: Request Outdoor Spaces Decorating Ideas
+  steps:
+  - intent: outdoor_spaces
+  - action: utter_outdoor_spaces
+
+- story: Request Seasonal Decor Suggestions
+  steps:
+  - intent: seasonal_decor
+  - action: utter_seasonal_decor
+
+- story: Request Furniture Restoration Tips
+  steps:
+  - intent: furniture_restoration
+  - action: utter_furniture_restoration
+
+- story: Request Wall Art Ideas
+  steps:
+  - intent: wall_art_ideas
+  - action: utter_wall_art_ideas
+

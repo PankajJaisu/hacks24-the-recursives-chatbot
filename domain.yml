@@ -1,0 +1,105 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - inform
+  - request_item
+  - painting_instructions
+  - basic_design_tips
+  - room_layout
+  - color_scheme
+  - materials
+  - budget_friendly
+  - define_style
+  - room_functionality
+  - lighting_ideas
+  - sustainable_design
+  - vintage_decor
+  - smart_home_tech
+  - outdoor_spaces
+  - seasonal_decor
+  - furniture_restoration
+  - wall_art_ideas
+  - spatial_organization
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with your DIY interior design project?"
+
+  utter_goodbye:
+    - text: "Goodbye! Feel free to return if you have more questions."
+
+  utter_affirm:
+    - text: "Great to hear!"
+
+  utter_deny:
+    - text: "Okay, let me know if you change your mind."
+
+  utter_mood_great:
+    - text: "That's fantastic! How can I assist you today?"
+
+  utter_mood_unhappy:
+    - text: "I'm sorry to hear that. If you need assistance or design ideas, I'm here to help."
+
+  utter_bot_challenge:
+    - text: "Yes, I'm a bot here to help you with DIY interior design. How can I assist you today?"
+
+  Fnform:
+    - text: "I'm here to help with DIY interior design. What do you need assistance with?"
+
+  utter_request_item:
+    - text: "Sure! What specific furniture or decor items are you looking for in your room?"
+
+  utter_painting_instructions:
+    - text: "To paint your walls, start by cleaning, priming, and choosing your paint color. Use painter's tape for clean lines."
+
+  utter_basic_design_tips:
+    - text: "For a simple home makeover, focus on decluttering, choosing a cohesive color scheme, and incorporating statement pieces."
+
+  utter_room_layout:
+    - text: "Optimize your room layout by considering furniture placement, traffic flow, and focal points."
+
+  utter_color_scheme:
+    - text: "Choose a color scheme based on your preferences, room size, and natural light. Play with complementary colors for a harmonious look."
+
+  utter_materials:
+    - text: "Find affordable DIY materials at local home improvement stores or online. Look for sales, discounts, and reuse items creatively."
+
+  utter_budget_friendly:
+    - text: "Decorate on a tight budget with DIY projects using inexpensive materials, upcycling old furniture, or exploring thrift stores."
+
+  utter_define_style:
+    - text: "Modern interior design features clean lines, minimalism, and neutral colors. Farmhouse style emphasizes rustic elements, while minimalistic design focuses on simplicity."
+
+  utter_room_functionality:
+    - text: "Optimize your kitchen for functionality by organizing utensils and creating efficient storage. Prioritize ergonomic furniture for a practical home office."
+
+  utter_lighting_ideas:
+    - text: "Enhance your rooms with creative lighting ideas. Consider pendant lights, floor lamps, and LED strips."
+
+  utter_sustainable_design:
+    - text: "Incorporate eco-friendly elements with sustainable interior design. Use bamboo, reclaimed wood, and energy-efficient lighting."
+
+  utter_vintage_decor:
+    - text: "Achieve a vintage look with antique furniture, distressed finishes, and retro decor items."
+
+  utter_smart_home_tech:
+    - text: "Make your home technologically advanced with smart lighting, thermostats, and security systems."
+
+  utter_outdoor_spaces:
+    - text: "Decorate outdoor spaces with cozy patio furniture, vibrant cushions, and potted plants."
+
+  utter_seasonal_decor:
+    - text: "Change your home decor with the seasons. Consider seasonal colors, wreaths, and themed decorations."
+
+  utter_furniture_restoration:
+    - text: "Restore old furniture by sanding, repainting, or refinishing for a unique and personalized touch."
+
+  utter_wall_art_ideas:
+    - text: "Explore creative wall art ideas with DIY projects. Consider gallery walls, framed artwork, or handmade crafts."

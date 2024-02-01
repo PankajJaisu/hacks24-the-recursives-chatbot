@@ -1,0 +1,216 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: inform
+  examples: |
+    - I want to design my room by myself
+    - DIY interior design
+    - I need help with home decor
+
+
+- intent: request_item
+  examples: |
+    - What furniture can I include in my room?
+    - Suggest some decor items
+    - Give me DIY interior design ideas
+
+  
+
+- intent: painting_instructions
+  examples: |
+    - How do I paint my walls?
+    - Can you provide tips for wall painting?
+    - Steps for a DIY paint job
+
+- intent: basic_design_tips
+  examples: |
+    - What are some basic interior design tips?
+    - Give me advice for a simple home makeover
+    - Tips for decorating on a budget
+
+- intent: room_layout
+  examples: |
+    - How should I arrange furniture in my living room?
+    - Tips for optimizing room layout
+    - Ideas for small room organization
+
+- intent: color_scheme
+  examples: |
+    - Help me choose a color scheme for my bedroom
+    - What colors go well together in a room?
+    - Tips for creating a cohesive color palette
+
+  
+- intent: materials
+  examples: |
+    - Where can I buy affordable DIY materials?
+    - Recommended materials for DIY projects
+    - Best stores for home improvement materials
+
+- intent: budget_friendly
+  examples: |
+    - Give me budget-friendly decor ideas
+    - Tips for decorating on a tight budget
+    - Affordable DIY projects
+
+
+- intent: define_style
+  examples: |
+    - What is the modern interior design style?
+    - Explain the farmhouse style in home decor
+    - Define minimalistic design
+
+- intent: room_functionality
+  examples: |
+    - How can I optimize my kitchen for functionality?
+    - Tips for designing a functional home office
+    - Make my living room more practical
+
+- intent: lighting_ideas
+  examples: |
+    - Suggest creative lighting ideas for a bedroom
+    - What are some unique lighting fixtures for a living room?
+    - Enhance my kitchen lighting
+
+- intent: sustainable_design
+  examples: |
+    - Tell me about sustainable interior design
+    - How to incorporate eco-friendly elements in my home?
+    - Sustainable materials for DIY projects
+
+- intent: vintage_decor
+  examples: |
+    - How can I achieve a vintage look in my home?
+    - Tips for incorporating vintage decor
+    - Vintage DIY ideas
+
+- intent: smart_home_tech
+  examples: |
+    - Recommend smart home technologies for interior design
+    - How to integrate smart home devices seamlessly?
+    - Make my home more technologically advanced
+
+- intent: outdoor_spaces
+  examples: |
+    - Ideas for decorating outdoor spaces
+    - Designing a cozy patio
+    - Outdoor DIY projects
+
+- intent: seasonal_decor
+  examples: |
+    - How to decorate for different seasons?
+    - Seasonal changes in home decor
+    - DIY holiday decorations
+
+- intent: furniture_restoration
+  examples: |
+    - Tips for restoring old furniture
+    - DIY furniture refinishing
+    - Restore vintage pieces at home
+
+- intent: wall_art_ideas
+  examples: |
+    - Creative wall art ideas for a living room
+    - DIY wall decor projects
+    - How to display art in a bedroom
+
+- intent: spatial_organization
+  examples: |
+    - Strategies for spatial organization in a small apartment
+    - Maximize storage in a tiny bathroom
+    - Tips for organizing a cluttered space
+
+
+
+
+    
